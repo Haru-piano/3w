@@ -1,0 +1,38 @@
+----------
+3w.html
+
+		<a href="./3w_1.html">画像ファイル表示</a></br>
+		<a href="./3w_2.html">カメラ画像表示</a>
+
+----------
+3w_1.html
+
+	<script type="text/javascript" src="3w_1.js"></script>
+
+
+
+		<!-- ファイル読込 -->
+		<input type="file" id="selfile">
+		<!-- 画像表示 -->
+		</br></br>
+		<canvas id="display_canvas" width="900" height="300"></canvas>
+
+----------
+3w_2.html
+
+	<script type="text/javascript" src="3w_2.js"></script>
+
+
+
+		</br></br>
+		<!-- カメラ入力 -->
+		<video id="video" width="320" height="240" autoplay ></video>
+		<!-- 画像表示 -->
+		<canvas id="display_canvas" width="320" height="240"></canvas>
+
+----------
+1w.html
+
+		<a target="_blank" href="./第1回_マルチメディア_講義資料p.pdf">ガイダンス</a>
+
+----------
